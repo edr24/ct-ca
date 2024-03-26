@@ -68,6 +68,6 @@ def process_csv(input_csv, output_csv):
     result_df.to_csv(output_csv, index=False)
 
 # Example usage
-input_csv_path = 'input.csv'
-output_csv_path = 'processed_output.csv'
+input_csv_path = r'\\ois.gov.soj\sojdata\HSSHomeDirs\RichardsonEd\My Documents\Governance\CTCA_data.csv'
+output_csv_path = r'\\ois.gov.soj\sojdata\HSSHomeDirs\RichardsonEd\My Documents\Governance\Processed_CTCA_data.csv'
 process_csv(input_csv_path, output_csv_path)
